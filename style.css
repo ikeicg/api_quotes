@@ -1,0 +1,58 @@
+:root{
+    --primary_color: rgb(44, 62, 80);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background-color: var(--primary_color);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotesCard{
+    width: 40%;
+    height: 250px;
+    padding: 50px 30px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--primary_color);;
+}
+
+.quoteText{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.author{
+    font-size: 1em;
+    text-align: right;
+    font-weight: 600;
+}
+
+.quoteButton{
+    color: white;
+    background-color: var(--primary_color);
+    padding: 10px;
+    font-weight: 700;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+
